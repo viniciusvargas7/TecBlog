@@ -14,8 +14,8 @@ body{
     background-color: #e6b800;
     padding: 15px;
     text-align: center;
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
 }
 
 #logo{
@@ -55,14 +55,15 @@ a:hover{
 }
 #postagens{
     width: 67%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color:white;
     margin: 0 auto;
     float: left;
+    padding: 10px;
 }
 #lateral{
     width: 30%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color:white;
     margin: 0 auto;
     float: right;
@@ -71,5 +72,30 @@ a:hover{
     clear: both;
     background-color: #e6b800;
     padding: 15px;
+    text-align: center;
+}
+
+.postagem h2{
+    color:#e6b800;
+}
+.postagem span{
+    font-weight: bold;
+    padding: 0 0 10 0;
+}
+.postagem img{
+    width: 80%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.postagem p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+.postagem a{
+    color: #e6b800;
+    font-size: 1em;
+    padding: 0px;
+}
+.centraliza-img{
     text-align: center;
 }
