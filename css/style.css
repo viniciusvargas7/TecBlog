@@ -2,37 +2,46 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-size:1em;
     font-family:helvetica, arial, sans-serif;
     background-color: #e6e6e6;
 }
-
 /*CABEÇALHO*/
 #cabecalho{
-    background-color: #40B5AD;
+    background: -webkit-linear-gradient(
+        top, #00b7ea 0%,#009ec3 100%);
+    /* background-color: #000D2A; */
     padding: 15px;
     text-align: center;
     /* position: sticky;
     top: 0px; */
 }
-
 #logo{
     padding: 10px 10px 20px 10px;
     font-size: 2.5em;
     color: rgb(48, 42, 42);
     /* border: 1px solid black; */
+    clear: both;
+    font-family: 'Readex Pro', sans-serif;
 }
-
 #menu{
     padding:10px;
 }
-
+#redes-sociais {
+    float: right;
+    position: absolute;
+}
+#redes-sociais img {
+    width: 7%;
+}
+#redes-sociais img:hover {
+    -webkit-transform: scale(1.2);
+    /* transform: scale(1.2); */
+}
 .branco{
     color: white;
 }
-
 /*Links*/
 a:link, a:visited{ 
     color: white;
@@ -45,9 +54,9 @@ a:link, a:visited{
 
 a:hover{
     background-color:white;
-    color:#40B5AD
+    color:#000D2A;
+    -webkit-transform: scale(1.9);
 }
-
 /*CORPO*/
 #conteudos{
     width: 70%;
@@ -57,7 +66,7 @@ a:hover{
 #postagens{
     width: 67%;
     /* border: 2px solid black; */
-    background-color:#61C7C0;
+    background-color:#2180A7;
     margin: 0 auto;
     float: left;
     padding: 10px;
@@ -71,13 +80,13 @@ a:hover{
     float: right;
 }
 .postagem{    
-    border: 3px solid #40B5AD;
+    border: 3px solid #000D2A;
     border-radius: 10px;
     background-color: white;
     padding: 15px;
 }
 .postagem h2{
-    color:#40B5AD;
+    color:#03205e;
     font-size: 2.5em;
     /* padding: 10px; */
 }
@@ -97,7 +106,7 @@ a:hover{
     padding: 10px 0px;
 }
 .postagem a{
-    color: #40B5AD;
+    color: #000D2A;
     font-size: 1em;
     padding: 0px;
 }
@@ -106,7 +115,7 @@ a:hover{
 }
 #rodape{
     clear: both;
-    background-color: #40B5AD;
+    background-color: #000D2A;
     padding: 15px;
     text-align: center;
     margin-top: 15px;
